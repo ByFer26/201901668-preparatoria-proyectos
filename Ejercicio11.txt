@@ -1,0 +1,6 @@
+
+
+El circulo de radio:2.36 tiene un area de 17.4974
+El cuadrado de lado 5.97 tiene un area de 35.6409
+El rectangulo de dimensiones 6.247 x 4.21 tiene un area de 26.2999
+El triangulo de base 2.485 y altura 6.78 tiene un area de 8.4241
