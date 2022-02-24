@@ -74,7 +74,7 @@ if(op==4):
     altura=float(input("Ingrese la altura del triangulo:"))
     resultado1=base*altura
     resultado=resultado1/2
-    print("El triangulo de base",base," y altura",altura,"tiene un area de",round(resultado,4))
+    print("El triangulo de base",base," y altura ",altura,"tiene un area de",round(resultado,4))
     archivo.write("El triangulo de base ")
     archivo.write(str(base))
     archivo.write(" y altura ")

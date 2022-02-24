@@ -26,7 +26,7 @@ while(not logico):
                 for i in range(num2,num1+1):
                     dist=num1+num2
                     print(-(i-dist))
-                    archivo.write("Los numeros son "+str(num1)+" "+str(num2))
+                    archivo.write("Los numeros son "+str(num1)+" "+str(num2)+"\n")
                     Cursor=conexion.cursor()
                     Cursor.execute("INSERT INTO ejercicio6(numero1,numero2) VALUES(%s,%s);",(num1,num2))
                     conexion.commit()
@@ -36,7 +36,7 @@ while(not logico):
                 for i in range(num1,num2+1):
                     dist=num2+num1
                     print(-(i-dist))
-                    archivo.write("Los numeros son "+str(num1)+" "+str(num2))
+                    archivo.write("Los numeros son "+str(num1)+" "+str(num2)+"\n")
                     Cursor=conexion.cursor()
                     Cursor.execute("INSERT INTO ejercicio6(numero1,numero2) VALUES(%s,%s);",(num1,num2))
                     conexion.commit()

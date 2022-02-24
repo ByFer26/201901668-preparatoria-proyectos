@@ -58,7 +58,7 @@ if(op==1):
 
     else:
         tipo=str("Escaleno")
-        print("El tipo de triangulo es",tipo,"sus lados son",lado1,lado2,lado3)
+        print("El tipo de triangulo es ",tipo," sus lados son ",lado1,lado2,lado3)
         Cursor=conexion.cursor()
         Cursor.execute("INSERT INTO ejercicio9(lado1,lado2,lado3,triangulo) VALUES(%s,%s,%s,%s);",(lado1,lado2,lado3,tipo))
         conexion.commit()

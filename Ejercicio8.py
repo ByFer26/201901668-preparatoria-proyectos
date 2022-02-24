@@ -12,7 +12,7 @@ conexion=psycopg2.connect(
 )
 
 print("Bienvenido que desea realizar")
-print("1. Averiguar la cantidad de numeros primos")
+print("1. Averiguar la cantidad de numeros impares")
 print("2. Ver el historial")
 
 op=int(input("Eliga una opcion:"))
@@ -23,7 +23,7 @@ if(op==1):
     for i in range(1,num+1):
         if(i%2==1):
             pares=pares+1
-    print("La cantidad de pares es:",pares)
+    print("La cantidad de impares es:",pares)
     
     Cursor=conexion.cursor()
     Cursor.execute("INSERT INTO ejercicio8(numero,impares) VALUES(%s,%s);",(num,pares))

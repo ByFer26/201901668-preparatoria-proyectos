@@ -5,3 +5,4 @@ El año 2012 es biciesto
 El año 2011 no es bisiesto 
 El año 2011 es biciesto
 El año 2011 no es bisiesto 
+El año 2022 no es bisiesto 

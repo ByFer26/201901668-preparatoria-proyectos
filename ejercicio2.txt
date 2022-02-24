@@ -1,0 +1,10 @@
+El numero 57 tiene como divisor a 1
+El numero 57 tiene como divisor a 3
+El numero 57 tiene como divisor a 19
+El numero 57 tiene como divisor a 57
+El numero 99 tiene como divisor a 1
+El numero 99 tiene como divisor a 3
+El numero 99 tiene como divisor a 9
+El numero 99 tiene como divisor a 11
+El numero 99 tiene como divisor a 33
+El numero 99 tiene como divisor a 99

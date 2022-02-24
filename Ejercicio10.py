@@ -19,7 +19,7 @@ if(op==1):
         resultado=factorial(num)
         if(resultado>10000):
             resultado=numpy.format_float_scientific(resultado,precision=4)
-        print("El factorial de",num,"Es",resultado)
+        print("El factorial de ",num," Es ",resultado)
         archivo.write("El factorial de  ")
         archivo.write(str(num))
         archivo.write(" Es ")

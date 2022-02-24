@@ -35,7 +35,7 @@ if(op==1):
     else:
         print(Year,"no es bisiesto.")
         tipo=str("No es bisiesto")
-        archivo.write("El año "+Yearstr+" no es bisiesto \n")
+        archivo.write("El año  "+Yearstr+" no es bisiesto \n")
         Cursor=conexion.cursor()
         Cursor.execute("INSERT INTO ejercicio13(anio,tipo) VALUES(%s,%s);",(Year,tipo))
         conexion.commit()

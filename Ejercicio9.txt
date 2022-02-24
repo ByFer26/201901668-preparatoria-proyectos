@@ -7,3 +7,4 @@ El triangulo con medidas  5.6  5.6  5.6   es de tipo  Equilatero
 El triangulo con medidas  5.6  5.6  5.6   es de tipo  Escaleno
 El triangulo con medidas  4.5  4.5  4.5   es de tipo  Equilatero
 El triangulo con medidas  4.5  4.5  4.5   es de tipo  Isoceles
+El triangulo con medidas  5.0  5.0  7.0   es de tipo  Isoceles

@@ -1,2 +1,3 @@
 Hasta el numero  512  Hay  256  impares  
 Hasta el numero  1223  Hay  612  impares  
+Hasta el numero  67  Hay  34  impares  

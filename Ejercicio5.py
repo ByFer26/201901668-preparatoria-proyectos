@@ -40,7 +40,7 @@ if op==1:
 
 if op==2:
     Cursor=conexion.cursor()
-    SQL='SELECT*FROM ejercicio14;'
+    SQL='SELECT*FROM ejercicio5;'
     Cursor.execute(SQL)
     valores=Cursor.fetchall()
     print(valores)

@@ -33,7 +33,7 @@ def estado(a,b):
     if(a>2013 and b<10000):
         estad=str("Optimo estado")
         print("Esta en optimo estado")
-        archivo.write("El taxi esta en optimo estado "+str(a)+" kilometraje "+str(b)+"\n")
+        archivo.write(" El taxi esta en optimo estado "+str(a)+" kilometraje "+str(b)+"\n")
         Cursor=conexion.cursor()
         Cursor.execute("INSERT INTO ejercicio14(modelo,kilometraje,estado) VALUES(%s,%s,%s);",(a,b,estad))
         conexion.commit()

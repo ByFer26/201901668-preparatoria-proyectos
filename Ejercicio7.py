@@ -11,7 +11,7 @@ archivo=open("ejercicio7.txt","a")
 print("Que desea realizar")
 print("1.Calcular las vocales:")
 print("2.Ver historial:")
-op=int(input("Opcion"))
+op=int(input("Opcion:"))
 
 logico=False
 while(not logico):

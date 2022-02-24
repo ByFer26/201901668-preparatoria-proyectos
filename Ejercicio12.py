@@ -18,7 +18,7 @@ def nota(a,b,c):
         final=str("Aprobado")
         print("Aprobado nota",round(promedio,2))
         archivo.write(final)
-        archivo.write(" nota ")
+        archivo.write(" nota  ")
         archivo.write(str(round(promedio,2)))
         archivo.write("\n")
         Cursor=conexion.cursor()
